@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { AuthContext } from './AuthProvider';
-import TelegramLogin from './TelegramLogin';
+import TelegramLogin from './TelegramAuth';
 import { Navigate } from 'react-router-dom';
 
 const Login = () => {
