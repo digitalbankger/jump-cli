@@ -16,7 +16,20 @@ const Home = () => {
         }
       });
     }
-  }, [currentUser]);
+  }, [currentUser]);import React from 'react';
+  import { Link } from 'react-router-dom';
+  
+  function Home() {
+    return (
+      <div>
+        <h1>Welcome to the Game</h1>
+        <Link to="/game">Start Game</Link>
+      </div>
+    );
+  }
+  
+  export default Home;
+  
 
   return (
     <div>
